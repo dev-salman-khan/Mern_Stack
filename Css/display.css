@@ -1,0 +1,27 @@
+/* Universal css Properties  */
+*{
+    box-sizing: border-box ; 
+    padding: 0px ;
+    margin: 50px ;
+    text-align: center;  
+   
+    
+    }
+    body{
+        background-color: rgb(192, 245, 124);
+    }
+    .container{
+        background-color: aqua;
+        height: 400px;
+        width: 500px;
+        position: relative;
+        overflow: scroll;
+    }
+.box{
+        background-color: gold;
+        height: 200px;
+        width: 250px;
+        position: absolute;
+        top: 250px;
+        left: 30px;
+    }

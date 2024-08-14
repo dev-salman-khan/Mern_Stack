@@ -1,0 +1,29 @@
+/* Universal css Properties  */
+*{
+    box-sizing: border-box ; 
+    padding: 0px ;
+    margin: 3px ;
+    text-align: center;  
+}
+body{
+    background-color: rgb(201, 245, 143);
+}
+div{
+    width: 400px;
+    height: 150px;
+    background-color: gold;
+    font-size: medium;
+    font-weight: bold;
+    border: 5px solid salmon;
+    justify-content: center;
+   margin-left: 200px;margin-top: 20px;
+}
+.box{
+    transform: rotate(10deg);
+}
+/* For The Second Box  */
+.box2{
+    transform: skew(20deg,10deg);
+}
+
+

@@ -1,0 +1,48 @@
+/* Universal css Properties  */
+*{
+    box-sizing: border-box ; 
+    padding: 0px ;
+    margin: 0px ;  
+    text-align: justify;
+    
+    }
+    body{
+        background-color: rgb(192, 245, 124);
+    }
+
+.para-color{
+    color: red;
+    font-size: 15px;
+}
+/* first id will be take css by the class id Excution is faster */
+#para-color{
+    color: blue;
+    font-size: 15px;
+}
+h1,h2{
+text-align: center;
+}
+.border{
+    border:3px solid green;
+        /* top    left Bottom   right  */
+    margin: 100px 50px 100px 50px;
+    background-color: pink;
+}
+
+.imges{
+    background-image: url(/images/css_images/ccs.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+.css_back{
+    color: white;
+    font-size: 50px;
+}
+.para-roler{
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 50px;
+    font-weight: bold;
+}
